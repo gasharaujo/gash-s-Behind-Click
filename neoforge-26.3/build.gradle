@@ -3,17 +3,4 @@ plugins {
     id 'net.neoforged.moddev' version '2.0.148'
 }
 
-group = 'dev.gasharaujo'
-version = '1.0.0'
-base.archivesName = 'gashs-behind-click-neoforge-26.3'
-java.toolchain.languageVersion = JavaLanguageVersion.of(25)
-
-neoForge {
-    version = '26.3.0.113'
-    runs { client { client() } }
-    mods { gashs_behind_click { sourceSet sourceSets.main } }
-}
-
-tasks.withType(JavaCompile).configureEach {
-    options.encoding = 'UTF-8'
-}
+apply from: '../build-neoforge.gradle'

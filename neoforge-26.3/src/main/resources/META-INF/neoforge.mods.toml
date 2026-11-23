@@ -4,16 +4,11 @@ license="All Rights Reserved"
 
 [[mods]]
 modId="gashs_behind_click"
-version="1.0.0"
+version="${modVersion}"
 displayName="Gash's Behind Click"
 authors="gasharaujo"
-description='''
-Segure a tecla configurada (Alt esquerdo por padrao) e clique com o botao direito
-para interagir com o proximo bloco encontrado atras do primeiro bloco sob a mira.
 
-O mod e exclusivamente client-side, nao registra conteudo e nao exige instalacao
-nos outros jogadores ou no servidor.
-'''
+description="Two client-side controls to interact with the block behind the one you are aiming at."
 
 [[dependencies.gashs_behind_click]]
 modId="neoforge"

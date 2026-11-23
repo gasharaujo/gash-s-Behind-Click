@@ -1,0 +1,8 @@
+{
+  "key.categories.gashs_behind_click": "Gash's Behind Click",
+  "key.category.gashs_behind_click.main": "Gash's Behind Click",
+  "key.gashs_behind_click.modifier": "Clique no bloco de trás (interação normal)",
+  "key.gashs_behind_click.block_only": "Clique no bloco de trás (só o bloco)",
+  "message.gashs_behind_click.empty_slot": "Deixe um espaço vazio na barra rápida para interagir só com o bloco.",
+  "key.gashs_behind_click.accelerate_behind": "Acelerar bloco de trás"
+}
