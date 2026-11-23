@@ -27,11 +27,14 @@ import net.neoforged.neoforge.common.NeoForge;
 public final class GashsBehindClick {
     public static final String MOD_ID = "gashs_behind_click";
 
+    private static final KeyMapping.Category CATEGORY =
+        new KeyMapping.Category(Identifier.fromNamespaceAndPath(MOD_ID, "main"));
+
     private static final KeyMapping BEHIND_CLICK_MODIFIER = new KeyMapping(
         "key.gashs_behind_click.modifier",
         InputConstants.Type.KEYBOARD,
         InputConstants.KEY_LALT,
-        new KeyMapping.Category(Identifier.fromNamespaceAndPath(MOD_ID, "main"))
+        CATEGORY
     );
 
     public GashsBehindClick(IEventBus modBus) {
@@ -43,6 +46,7 @@ public final class GashsBehindClick {
     }
 
     private static void registerKeyMappings(RegisterKeyMappingsEvent event) {
+        event.registerCategory(CATEGORY);
         event.register(BEHIND_CLICK_MODIFIER);
     }
 
