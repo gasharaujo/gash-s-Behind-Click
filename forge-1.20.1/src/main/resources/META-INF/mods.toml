@@ -1,0 +1,25 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="All Rights Reserved"
+
+[[mods]]
+modId="gashs_behind_click"
+version="${modVersion}"
+displayName="Gash's Behind Click"
+authors="gasharaujo"
+displayTest="IGNORE_ALL_VERSION"
+description="Two client-side controls to interact with the block behind the one you are aiming at."
+
+[[dependencies.gashs_behind_click]]
+modId="forge"
+mandatory=true
+versionRange="[47,48)"
+ordering="NONE"
+side="CLIENT"
+
+[[dependencies.gashs_behind_click]]
+modId="minecraft"
+mandatory=true
+versionRange="[1.20.1]"
+ordering="NONE"
+side="CLIENT"

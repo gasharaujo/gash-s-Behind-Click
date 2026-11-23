@@ -1,0 +1,8 @@
+{
+  "key.categories.gashs_behind_click": "Gash's Behind Click",
+  "key.category.gashs_behind_click.main": "Gash's Behind Click",
+  "key.gashs_behind_click.modifier": "Click behind (normal interaction)",
+  "key.gashs_behind_click.block_only": "Click behind (block only)",
+  "message.gashs_behind_click.empty_slot": "Leave an empty hotbar slot to use the block-only click.",
+  "key.gashs_behind_click.accelerate_behind": "Accelerate Behind"
+}

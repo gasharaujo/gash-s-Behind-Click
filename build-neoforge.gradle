@@ -1,0 +1,15 @@
+apply from: '../build-common.gradle'
+
+neoForge {
+    version = loaderVersion
+    runs {
+        client {
+            client()
+        }
+    }
+    mods {
+        gashs_behind_click {
+            sourceSet sourceSets.main
+        }
+    }
+}
